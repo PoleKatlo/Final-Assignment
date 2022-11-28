@@ -2,7 +2,7 @@
 {       
     internal class Calculator
     {
-       public double wastewaterCost(double Water_Used, string Usertype)// calculate waste water cost
+       public double wastewaterCost(double Water_Used, string Usertype)// calculate waste water cost 
 
 
         {
@@ -163,7 +163,7 @@
 
 
 
-        public double getbill(double Water_Used, string Usertype)
+        public double getbill(double Water_Used, string Usertype)// calculate total amount using waste water and portable water methods
         {
 
             Calculator calculator = new Calculator();
